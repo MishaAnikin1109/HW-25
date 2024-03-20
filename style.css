@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.header {
+    width: 1366px;
+    background-color: brown;
+    position: fixed;
+    left: 0px;
+}
+.logo {
+    font-family: "Ubuntu";
+    font-size: 50px;
+    color: gold;
+}
+.link {
+    font-family: "Roboto";
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nav {
+    width: 800px;
+    margin-top: 60px;
+}
+.main {
+    height: 1000px;
+}
+.empty {
+    height: 2000px;
+    background-color: gray;
+}
+.square-tomato {
+    width: 250px;
+    height: 250px;
+    background-color: tomato;
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+.square-mediumpurple {
+    width: 250px;
+    height: 250px;
+    background-color: mediumpurple;
+    position: relative;
+    top: 340px;
+    right: 50px;
+    z-index: 1;
+}
+.square-springgreen {
+    width: 250px;
+    height: 250px;
+    background-color: springgreen;
+    position: relative;
+    top: 490px;
+    right: 350px;
+}
